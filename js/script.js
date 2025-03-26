@@ -7,7 +7,8 @@ const age = document.getElementById('age')
 
 const button = document.querySelector('.send')
 
-button.addEventListner('click', function(){
+
+button.addEventListener('click', function(){
 
 let distancePrice = (distance * 0.21).toFixed(2);
 console.log(distancePrice + " " + "Euro (Prezzo intero)");
