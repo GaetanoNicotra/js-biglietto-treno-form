@@ -2,9 +2,10 @@
 
 .my-title{
     display: inline;
+    margin-top: 12px;
     color: white;
     font-size: 50px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serifs;
 }
 
 .my-img{
@@ -22,9 +23,20 @@
 }
 
 .my-wd{
-    width: 60%;
+    width: 48%;
 }
 
 .my-btn{
     margin-top: 50px;
+    margin-left: 12px;
+}
+
+.my-btn2{
+    position: relative;
+    left: 83%;
+    bottom: 40%;
+}
+
+.my-title3{
+    text-align: center;
 }

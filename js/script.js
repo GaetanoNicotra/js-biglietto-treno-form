@@ -1,5 +1,4 @@
 // RECUPERO GLI INPUT DAL DOM
-
 const distance = document.getElementById('distance')
 
 const age = document.getElementById('age')
@@ -7,13 +6,13 @@ const age = document.getElementById('age')
 const button = document.querySelector('.send')
 
 const nameField = document.getElementById('nameField')
+
 // RECUPERO GLI ELEMENTI DEL DOM DOVE ANDRANNO INSERITI I DATI
 const name = document.getElementById('name')
 
 const outputPrice = document.getElementById('outputPrice')
 
 const outputDistance = document.getElementById('outputDistance')
-
 
 // CREO L'EVENTO CHE DEVE VERIFICARSI AL CLICK DEL BOTTONE
 button.addEventListener('click', function () {

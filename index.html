@@ -11,12 +11,12 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 
-<body>
+<body class="bg-primary bg-opacity-10 bg-gradient">
     <header>
         <nav class="navbar" style="background-color: #001533;">
             <div class="container-fluid">
                 <a class="navbar-brand my-style" href="#">
-                    <img src="./logo-boolean.png" alt="Logo" width="30" height="24"
+                    <img src="./img/logo-boolean.png" alt="Logo" width="30" height="24"
                         class="d-inline-block align-text-top img-fluid my-img">
                     <p class="my-title">BOOLTREN <i class="fa-solid fa-train"></i></p>
                 </a>
@@ -25,28 +25,34 @@
     </header>
     <main>
     </main>
-    <h1 class="my-title2">CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
+    <h1 class="my-title2 pt-2 pb-5">CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
         <div class="container">
             <div class="row">
-                <div class="col">
+                <div class="col-4">
+                    <h4>Nome e Cognome</h4>
                     <input id="nameField" type="text" class="form-control" placeholder="Inserisci Nome e Cognome"
                         aria-label="First name">
                 </div>
-                <div class="col">
+                <div class="col-4">
+                    <h4>Chilometri</h4>
                     <input type="text" id="distance" class="form-control"
                         placeholder="Inserisci i chilommetri da percorrere" aria-label="First name">
                 </div>
-                <div class="col">
+                <div class="col-4">
+                    <h4>Eta'</h4>
                     <input type="text" id="age" class="form-control" placeholder="Inserisci la tua età"
                         aria-label="Last name">
                 </div>
-                <button class="send p-2 btn btn-primary my-btn">INVIA</button>
+        <div class="container">
+            <button class="send p-2 btn btn-primary my-btn mt-4 mb-4 col-2">INVIA</button>
+            <h2 class="my-title3 mb-1">IL TUO BIGLIETTO:</h2>
                 <div class="card mb-3">
-                    <img src="./train2.jpg" class=" my-wd" alt="train">
+                    <img src="./img/train2.jpg" class=" my-wd" alt="train">
                     <div class="card-body">
-                        <h5 id="name" class="card-title">Nome e cognome</h5>
-                        <p id="outputPrice" class="card-text">Prezzo del biglietto</p>
-                        <p id="outputDistance" class="card-text">Chilometri da percorrere</p>
+                        <h5 id="name" class="card-title h3">Nome e cognome</h5>
+                        <p id="outputPrice" class="card-text h5">Prezzo del biglietto</p>
+                        <p id="outputDistance" class="card-text h5">Chilometri da percorrere</p>
+                        <button class=" btn btn-primary my-btn2 col-2">STAMPA</button>
                     </div>
                 </div>
             </div>
