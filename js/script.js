@@ -17,7 +17,7 @@ const outputDistance = document.getElementById('outputDistance')
 
 // CREO L'EVENTO CHE DEVE VERIFICARSI AL CLICK DEL BOTTONE
 button.addEventListener('click', function () {
-
+    event.preventDefault()
     name.innerHTML = nameField.value;
     outputDistance.innerHTML = 'I chilometri che dovrai percorrere sono:' + ' ' + distance.value
 
@@ -37,6 +37,6 @@ button.addEventListener('click', function () {
     else {
         console.log(distancePrice + " " + "Euro (Prezzo intero, non rientri in una fascia di età in sconto)")
     }
-    outputPrice.innerHTML = 'Il prezzo del biglietto è:' + ' ' + distancePrice;
+    outputPrice.innerHTML = 'Il prezzo del biglietto è: ' + '€ ' + distancePrice;
 
 })
