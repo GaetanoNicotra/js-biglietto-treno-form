@@ -16,7 +16,8 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                    <input id="nameField" type="text" class="form-control" placeholder="Inserisci Nome e Cognome"
+                        aria-label="First name">
                 </div>
                 <div class="col">
                     <input type="text" id="distance" class="form-control"
@@ -26,8 +27,18 @@
                     <input type="text" id="age" class="form-control" placeholder="Inserisci la tua età"
                         aria-label="Last name">
                 </div>
+                <button class="send p-2">INVIA</button>
+                <div class="card mb-3">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 id="name" class="card-title">Nome e cognome</h5>
+                        <p id="outputPrice" class="card-text">Prezzo del biglietto</p>
+                        <p id="outputDistance" class="card-text">Chilometri da percorrere</p>
+                    </div>
+                </div>
             </div>
-            <button class="send">INVIA</button>
+        </div>
+
         </div>
     </main>
     <script src="./js/script.js"></script>
