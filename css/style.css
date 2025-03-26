@@ -1,0 +1,30 @@
+
+
+.my-title{
+    display: inline;
+    color: white;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.my-img{
+    width: 15%;
+}
+
+.my-style{
+    display: flex;
+    align-items: center;
+}
+
+.my-title2{
+    text-align: center;
+    margin-top: 35px;
+}
+
+.my-wd{
+    width: 60%;
+}
+
+.my-btn{
+    margin-top: 50px;
+}
